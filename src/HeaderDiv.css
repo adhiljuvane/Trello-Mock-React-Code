@@ -1,0 +1,554 @@
+.completeDiv{
+  style : flex ;
+  flex-direction: column;
+  height: 100% ;
+  width: 100% ;
+}
+.divForHeader {
+  width : 100% ;
+  position: fixed;
+  background-color: #0079bf ;
+  align-items : center;
+  height: 78px ;
+  z-index: 5 ;
+}
+
+.trelloIcon{
+  background-image: url("trello-logo-white.svg");
+  margin-left: 10px ;
+  width : 104px ;
+  height : 32px ;
+}
+
+.loginButton{
+  margin: auto;
+}
+
+.signUpButton{
+  margin-left : 15px;
+  margin-right: 15px ;
+}
+
+.divForContent1{
+  margin: auto;
+  background-size: cover;
+  width: 100% ;
+  background-image: url("https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/d84b3c6b1f07d701acb1a153002f7e6a/usecases-bg.jpg");
+  background-repeat: no-repeat;
+
+}
+
+h1{
+  color: #fff ;
+  font-weight: 900;
+  text-align: center;
+  font-size: 36px ;
+  margin-top: 50px ;
+}
+
+.headerandcontent{
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width : 60% ;
+
+}
+
+p{
+  font-family: helvetica ;
+  margin : auto;
+  color: #fff ;
+  font-size: 20px ;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.p2{
+  margin-top: 20px;
+  font-size: 16px ;
+}
+
+.butonInsideC1{
+  margin: auto;
+  text-align : center;
+  margin-top: 20px ;
+}
+
+.divForContent2{
+  padding: 20px;
+  height: 100%;
+  width : 100% ;
+  background-color: #315989 ;
+  background-size: contain;
+  position: relative;
+}
+
+.ant-carousel{
+
+}
+
+.imageInC2 {
+  height: 920px;
+  margin:2%;
+  margin-left: 10% ;
+  z-index: 0 ;
+
+}
+
+.imageInC2 img{
+  width: 78% ;
+  height: 800px;
+  animation-name: abc;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count:infinite;
+  animation-duration: 8s;
+  position: absolute;
+}
+
+@keyframes abc {
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+.imageInC2 img:nth-of-type(1){
+  animation-delay: 6s;
+
+}
+
+.imageInC2 img:nth-of-type(2){
+
+  animation-delay: 4s;
+}
+
+.imageInC2 img:nth-of-type(3){
+
+  animation-delay: 2s;
+}
+
+.imageInC2 img:nth-of-type(4){
+
+  animation-delay: 0s;
+}
+
+.divOverImage{
+  width: 100%;
+  height: 210px ;
+  position: sticky;
+  background-color:rgba(37,66,109,0.9);
+  margin-top: -356px;
+  margin-left: 0px ;
+  margin-right: 0px ;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divForContent3{
+  style : flex ;
+  align-items: center;
+  width: 100% ;
+  padding-top: 20px ;
+  align-content: center;
+  text-align: center;
+  background-color: #ffab4a ;
+  flex-direction: column;
+  height: auto;
+}
+
+h2 {
+  style : flex ;
+  color: #ffffff ;
+  font-size: 26px ;
+  font-weight: 700;
+}
+
+.imageInC3{
+  width : 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
+  margin-top: 20px;
+  height: 775px ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/1b9100e29afb7df3e805a6c5210a202e/usecases-card.jpg");
+}
+
+.divForContent4{
+  display: flex;
+  background-color: #eb5a46 ;
+  width: 100% ;
+  flex-flow: row nowrap;
+  height: 100% ;
+  style : flex ;
+  height: auto;
+}
+
+.rowElement2{
+  width: 50% ;
+  margin: 10px;
+  margin-right: 0px ;
+  margin-bottom: 0px ;
+  border-top-left-radius: 10px 10px;
+  height: 400px;
+  background-image: url("https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/43e915441342077c5fdc6be43b9c1c86/usecases-tiles.jpg");
+}
+
+.rowElement1{
+  display: flex ;
+  width: 50% ;
+  margin: auto;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttonInC4{
+  margin-top: 20px ;
+}
+
+.divinR1C4{
+  font-family: helvetica ;
+  color: #fff ;
+  width: 60% ;
+  font-size: 20px ;
+  font-weight: 300;
+  text-align: center;
+}
+
+.divForContent5{
+  width : 100% ;
+  display : flex ;
+  flex-flow: row nowrap;
+  background-color: #7b8fd1;
+  height: 560px;
+}
+
+.divForR1C5{
+  width: 580px ;
+  height: 100% ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/c66b31f34142c6f1f3ba0e0655cf3486/usecases-powerups.png");
+}
+
+.divForR2C5{
+  width: 50% ;
+  height: 100% ;
+  justify-content: center;
+  align-items: center;
+  display : flex ;
+  flex-direction: column;
+}
+
+.divInR2C5{
+  font-family: helvetica ;
+  color: #fff ;
+  width: 60% ;
+  font-size: 20px ;
+  font-weight: 300;
+  text-align: center;
+}
+
+.divForContent6{
+  width: 100% ;
+  height: 500px ;
+  background-image: url("https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/60dc711cb04607c6a8a0c55b045aeb6d/usecases-taco.jpg");
+}
+
+.divInC6{
+  padding-top: 20px ;
+  width: 60% ;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  height: 100% ;
+}
+
+.divForPinC6{
+  font-family: helvetica ;
+  color: #fff ;
+  display: flex;
+  width: 60% ;
+  font-size: 20px ;
+  font-weight: 300;
+}
+
+.divForbuttons{
+  display: flex;
+  flex-direction: row;
+  width: 60% ;
+  height: auto;
+}
+.button1{
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/0c89bea1f934eadd07d8284fead760d6/btn-appstore.png");
+}
+
+.button2{
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/2d8bf64328f6c2666c1d5a3558fd7042/btn-playstore.png");
+}
+
+.divForContent7{
+  display: flex;
+  width: 100%;
+  height: 600px ;
+  align-content: center;
+  flex-direction: column;
+  background-color: #42548e ;
+}
+
+.div1{
+  margin: auto;
+  margin-top: 20px ;
+  width: 100%;
+  height: 20%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/730e47effc2c931d3b9a1d3f23818899/business-class-logo-white.svg");
+}
+
+.div2{
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 20%;
+}
+
+.div21{
+  width: 14%;
+  height: 100%;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/company-logos/09288d3ea813b2044fac0f438ed388b1/redhat.svg");
+}
+
+.div22{
+  width: 14%;
+  height: 100%;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/company-logos/cd74fd27bcece70f45dddd2cb967b35d/fender.svg");
+}
+
+.div23{
+  width: 14%;
+  height: 100%;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/company-logos/20e7a157f944d3dfb0c982df4eba1df0/adobe.svg");
+}
+
+.div24{
+  width: 14%;
+  height: 100%;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/company-logos/ca0d7ab3468651aca3bae695fc2bd7a5/google.svg");
+}
+
+.div25{
+  width: 14%;
+  height: 100%;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/company-logos/25a7a1aa2da3a0831578a5721ab2931c/govuk.svg");
+}
+
+.div26{
+  width: 14%;
+  height: 100%;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/company-logos/7bdcee736843561e6c1026fe576255dd/kickstarter.svg");
+}
+.div3{
+  width:100%;
+  height:20%;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.div31{
+  height: 100%;
+  width:20%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/company-logos/389fb583dfdf4a25588a70d59ac5f819/britishredcross.svg");
+}
+.div32{
+  height: 100%;
+  width:20%;
+  margin-left: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/company-logos/56b2cbd3496f4a32c17d3470e3a0e742/natgeo.svg");
+}
+
+.div4{
+  width: 40%;
+  height:20%;
+  font-family: helvetica ;
+  color: #fff ;
+  font-size: 20px ;
+  font-weight: 300;
+  margin: auto;
+  margin-bottom: 0px ;
+  margin-top: 20px ;
+  display: flex;
+  text-align: center;
+}
+
+.div5{
+  width: 100%;
+  height: 20%;
+  margin-top: 0px ;
+  margin-bottom: 20px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.divForContent8{
+  width: 100% ;
+  height: 380px ;
+  background-color: #ffffff ;
+  margin: auto;
+  margin-bottom: 0px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.column1InC8{
+  width: 50% ;
+  height: 33% ;
+  font-family: helvetica ;
+  color: #000 ;
+  font-size: 20px ;
+  font-weight: 300;
+  margin: auto;
+  margin-top: 20px ;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.column2InC8{
+  width: 100% ;
+  margin-top: 80px;
+  margin-bottom: 0px ;
+  height: 33% ;
+}
+
+.column3InC8{
+  width: 100% ;
+  margin-top: 0px ;
+  margin-bottom: 0px ;
+  height: 33% ;
+
+}
+
+.divForContent9{
+  margin-top: 0px ;
+  width: 100% ;
+  height: 112px ;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.divForC9Links{
+  width: 50% ;
+  height: 50% ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.divForLink{
+  width: 10% ;
+  height: 100% ;
+  margin: auto;
+}
+
+.lastdiv{
+    width: 50% ;
+    height: 50% ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px ;
+    margin-top: 30px ;
+}
+
+.imageInLastDiv{
+  width: 50% ;
+  height: 100% ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/6cdbcb3dcf82bba860f1768d184161ee/atlassian-logo-gray-small.svg");
+}
+
+.divInlastdiv{
+  width: 50% ;
+  height: 100% ;
+  font-family: helvetica ;
+  color: #D3D3D3 ;
+  font-size: 20px ;
+  font-weight: 300;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
